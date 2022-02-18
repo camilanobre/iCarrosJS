@@ -1,2 +1,2 @@
 # iCarrosJS :woman_technologist:
-Projeto criado para demosntrar a utilização do HTML5, CSS e Javascript :computer:
+Projeto criado para demonstrar a utilização do HTML5, CSS e Javascript.
