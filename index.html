@@ -5,15 +5,22 @@
         <meta content=“width=device-width, initial-scale=1, maximum-scale=1”
             name=“viewport”>
         <title>Teste iCarros</title>
+        <!-- CSS EXTERNO -->
         <link rel="stylesheet" type="text/css" href="style.css" />
-        <script src=“script.js”></script>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+        <script src=script.js></script>
+        <!-- CSS INCORPORADO -->
+        <style type="text/css">
+            h5 {color:#000;}
+      </style>
     </head>
     <body>
+        <div class="conteudo">
         <header>
-            <h3>Oi, seja bem-vindo ao meu teste para o iCarros!</h3>
+            <h3>Oi, seja bem-vindo ao meu teste para o iCarros! &#129412; </h3>
         </header>
         <section>
-            <h4> Nessa seção, irei demonstrar o uso de algumas tags</h4>
+            <h4> Nesta seção, irei demonstrar o uso de algumas tags básicas do HTML5</h4>
             <article>
                 <header>
                     <h2>O que é a tag <b>ARTICLE</b>?</h2>
@@ -24,14 +31,14 @@
                     inserção de um artigo, podendo ser referenciados via RSS.
                 </p>
                     <p>Disponível em:  
-                     <a href=“http://www.linhadecodigo.com.br/artigo/3518/principais-mudancas-na-estruturacao-de-uma-pagina-com-html-5.aspx”>
+                     <a href=http://www.linhadecodigo.com.br/artigo/3518/principais-mudancas-na-estruturacao-de-uma-pagina-com-html-5.aspx”>
                         Linha de Código
                     </a>
                 </p>
             </article>
             <article>
                 <header>
-                <h2>SECTIONS: tag de seções do HTML5</h2>
+                <h2>SECTIONS: tag de seções</h2>
 
                 </header>
                 <p>O autor Diego Eis explica que a tag section define um bloco ou um grupo de um assunto
@@ -45,22 +52,33 @@
                </a>
            </p>
         </section>
-        <div>
-            <h2>Tá, mas e a div?</h2>
+        <div class="box-div">
+            <h2>Tá, mas e a div? &#129320; </h2>
             <p>O elemento Div define uma divisão ou seção em um documento HTML. Ele é 
                 frequentemente usado como um contêiner para outros elementos, o que facilita na estilização
                  de blocos. Também é muito útil para inclusão de interações com Scripts (JavaScript). 
                  Portanto, ele é definido com um contêiner genérico para conteúdo de fluxo.
-                    E a tag <span> span </span>, é uma tag utilizada para agrupar textos ou tags em um documento,
+                    E a tag <span style="font-weight:bold"> span</span>, é uma tag utilizada para agrupar textos ou tags em um documento,
                     utilizada bastante para utilizar o CSS.
-                </span></p>
+                </p>
         </div>
         <div>
-            <img src="https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2021/02/nyan-cat-1.gif" 
-            alt="Gif Nyan Cat" width="300" height="300">
+            <h5> E por fim, um exemplo de uma imagem utilizando o atributo alt</h5>
+            <img src="https://raw.githubusercontent.com/gist/T-Jedsada/dbee22959762fa6c0ccad8153830b51a/raw/8957088c2e31dba6d72ce86c615cb3c7bb7f0b0c/nyan-cat.gif" 
+            alt="Gif Nyan Cat" width="450" height="250">
         </div>
-        <footer>
-            <p>Copyright 2022©</p>
-        </footer>
+    </div>
+    <!-- CSS INLINE -->
+    <footer style="color:#1C1C1C; font-weight: bold;">
+        <p>Copyright 2022©</p>
+    </footer>
     </body>
 </html>
+
+<style scoped>
+   header h3 { 
+    font-family: "Indie Flower"; 
+    font-size: 38px;
+    text-shadow: 1px 1px #FF1493; 
+  }
+  </style>
