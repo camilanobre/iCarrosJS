@@ -10,9 +10,10 @@ function fn(number) {
 
 //Função duplicate que vai clonar o array
  function duplicate(arr){
-    var arr = [1, 2, 3, 4];
-    return arr.concat(arr);
+    var arr = [1, 2, 3, 4,5];
+    return arr.concat(arr)
 }
+console.log(duplicate())
 
 // Transformando uma string em objeto
    let str = '{"name":"Erick Schimdt","age":32,"height":1.78}';
